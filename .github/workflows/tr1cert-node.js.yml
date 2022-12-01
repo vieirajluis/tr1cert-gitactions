@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "tr1cert-branch" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "tr1cert-branch" ]
 
 jobs:
   build:
